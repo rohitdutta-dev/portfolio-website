@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Rohit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About Me</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="Home" class="firstsection">
+            <div class="leftsection">Hi, My name is <span class="red">Rohit</span>!
+                <div>and I'm a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a class="btn" href="CV-Rohit Dutta.pdf" download>Download Resume</a>
+                    <a class="btn" href="https://github.com/rohitdutta-dev" target="_blank">Visit GitHub</a>
+                </div>
+            </div>
+            <div class="rightsection"><img src="hero img.png" alt=""></div>
+        </section>
+        <hr>
+        <section id="About" class="secondsection">
+            <h1>👤About Me</h1>
+            <div class="box"></div>
+            <div class="info-box">
+                <p>I’m Rohit Dutta, a BCA student passionate about web development.
+                    I enjoy building responsive web applications and learning new technologies.
+                    Currently focused on JavaScript, React, and backend development.
+                </p>
+            </div>
+        </section>
+        <hr>
+        <section id="Experience" class="thirdsection">
+            <h1>💼Internship / Experience</h1>
+            <div class="box"></div>
+            <div class="internship-box">
+                <h2>Web Development Intern</h2>
+                <p>Company: Webskitters Technology Solutions Pvt. Ltd, Kolkata, India</p>
+                <p>Duration: Aug 2025-Feb 2026</p>
+                <ul>
+                    <li>Worked on a job portal system.</li>
+                    <li>Implemented login/signup authentication</li>
+                    <li>Managed MySQL database</li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <section id="Skills" class="fourthsection">
+            <h1>🛠Skills</h1>
+            <div class="box"></div>
+            <div class="skill-box">
+                <h4>Languages</h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+                <h4>Tools & Frameworks</h4>
+                <ul>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                </ul>
+                <h4>Concepts</h4>
+                <ul>
+                    <li>Responsive Design</li>
+                    <li>REST APIs</li>
+                    <li>Database Management</li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <section id="Projects" class="fifthsection">
+            <h1>📂Projects</h1>
+            <div class="box"></div>
+            <div class="proj-box">
+                <ul>
+                    <h3>
+                        <li>Portfolio Website</li>
+                    </h3>
+                    <p>Personal developer portfolio showcasing skills, projects, and experience.</p>
+                    <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+
+                    <a class="lnk" href="https://your-live-demo" target="_blank">🔗 Live Demo</a>
+                    <a class="lnk" href="https://github.com/your-repo" target="_blank">💻 GitHub</a>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <section id="Contact" class="sixthsection">
+            <h1>📬Contact Me</h1>
+            <div class="box"></div>
+            <div class="cont-box">
+                <p><strong>Email:</strong> <a class="contact" href="mailto:rohitduttadev@gmail.com">rohitduttadev@gmail.com</a></p>
+                <p><strong>GitHub:</strong> <a class="contact" href="https://github.com/rohitdutta-dev" target="_blank">https://github.com/rohitdutta-dev</a></p>
+                <p><strong>LinkedIn:</strong> <a class="contact" href="https://linkedin.com/in/rohitdutta-dev" target="_blank">https://linkedin.com/in/rohitdutta-dev</a></p>
+                <p><strong>Location:</strong> West Bengal, India</p>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>© 2026 Rohit Dutta. All rights reserved.</p>
+            <p><a href="https://github.com/rohitdutta-dev" target="_blank">GitHub | </a><a
+                    href="https://linkedin.com/in/rohitdutta-dev" target="_blank">LinkedIn</a></p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Software Engineer', 'Programmer'],
+            typeSpeed: 50,
+        });</script>
+</body>
+</html>
